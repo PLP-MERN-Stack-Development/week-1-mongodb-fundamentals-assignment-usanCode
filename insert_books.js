@@ -131,7 +131,111 @@ const books = [
     in_stock: true,
     pages: 342,
     publisher: 'Thomas Cautley Newby'
+  },
+
+  // --- 10 Agatha Christie books ---
+
+  {
+    title: "Murder on the Orient Express",
+    author: "Agatha Christie",
+    genre: "Mystery",
+    published_year: 1934,
+    price: 10.99,
+    in_stock: true,
+    pages: 256,
+    publisher: "Collins Crime Club"
+  },
+  {
+    title: "And Then There Were None",
+    author: "Agatha Christie",
+    genre: "Mystery",
+    published_year: 1939,
+    price: 9.99,
+    in_stock: true,
+    pages: 272,
+    publisher: "Collins Crime Club"
+  },
+  {
+    title: "The Murder of Roger Ackroyd",
+    author: "Agatha Christie",
+    genre: "Mystery",
+    published_year: 1926,
+    price: 8.5,
+    in_stock: true,
+    pages: 312,
+    publisher: "Collins Crime Club"
+  },
+  {
+    title: "Death on the Nile",
+    author: "Agatha Christie",
+    genre: "Mystery",
+    published_year: 1937,
+    price: 9.5,
+    in_stock: true,
+    pages: 333,
+    publisher: "Collins Crime Club"
+  },
+  {
+    title: "The ABC Murders",
+    author: "Agatha Christie",
+    genre: "Mystery",
+    published_year: 1936,
+    price: 7.99,
+    in_stock: false,
+    pages: 272,
+    publisher: "Collins Crime Club"
+  },
+  {
+    title: "The Mysterious Affair at Styles",
+    author: "Agatha Christie",
+    genre: "Mystery",
+    published_year: 1920,
+    price: 6.99,
+    in_stock: true,
+    pages: 296,
+    publisher: "John Lane"
+  },
+  {
+    title: "Crooked House",
+    author: "Agatha Christie",
+    genre: "Mystery",
+    published_year: 1949,
+    price: 8.0,
+    in_stock: true,
+    pages: 256,
+    publisher: "Collins Crime Club"
+  },
+  {
+    title: "The Body in the Library",
+    author: "Agatha Christie",
+    genre: "Mystery",
+    published_year: 1942,
+    price: 7.5,
+    in_stock: true,
+    pages: 288,
+    publisher: "Collins Crime Club"
+  },
+  {
+    title: "A Murder is Announced",
+    author: "Agatha Christie",
+    genre: "Mystery",
+    published_year: 1950,
+    price: 9.25,
+    in_stock: true,
+    pages: 320,
+    publisher: "Collins Crime Club"
+  },
+  {
+    title: "Peril at End House",
+    author: "Agatha Christie",
+    genre: "Mystery",
+    published_year: 1932,
+    price: 8.75,
+    in_stock: true,
+    pages: 296,
+    publisher: "Collins Crime Club"
   }
+
 ];
 
 // Function to insert books into MongoDB
